@@ -46,6 +46,7 @@ function LoginForma({onLogin}){
             setRegistracijaMod(false);
         }else
             if(email === "a@a" && password === "a"){
+                //-----------------------simulacija
                 //ovo vodi dalje
                 onLogin();
                 //console.log("radi")
