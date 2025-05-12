@@ -1,0 +1,61 @@
+.login-container{
+    
+        font-family: "Kavoon", serif;
+        font-weight: 100px;
+        text-align: center;
+        font-style: normal;
+        color: white;
+    
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff28;
+
+    background-image: url(assets/4531805.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff18;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    color: white;
+    margin: 5px;
+}
+.login-field{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.144);
+    color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+.btn-div button{
+    background-color: rgba(255, 255, 255, 0.189);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+.btn-div .reg-btn{
+    color: rgba(255, 0, 0, 0.479);
+}
+.btn-div .log-btn{
+    color: rgb(255, 255, 255);
+}

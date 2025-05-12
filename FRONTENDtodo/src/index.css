@@ -1,0 +1,166 @@
+
+* {
+  box-sizing: border-box;
+
+}
+body{
+  background-image: url(assets/4531805.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin:0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.to-do-list{
+  font-family: "Kavoon", serif;
+  font-weight: 100px;
+  text-align: center;
+  font-style: normal;
+  color: white;
+
+  padding: 40px;
+  max-width: 700px;
+  width: 100%;
+
+  margin: 0 auto;
+
+}
+h1{
+  font-size: 2.7rem;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-button{
+  background: none;
+  color:rgb(255, 255, 255);
+  font-size: 4rem;
+  
+}
+.add-button:hover{
+  color: red;
+}
+.delete-button{
+  background:none;
+}
+.delete-button:hover{
+  background:rgba(255, 255, 255, 0.151);
+}
+.move-button{
+  background:none;
+}
+.move-button:hover{
+  background:rgba(255, 255, 255, 0.151);
+}
+input[type = "text"]{
+  font-size: 1.7rem;
+  padding: 20px 30px;
+  border: none;
+  background-color: #ffffff27;
+  border-radius: 50px;
+  color: #ffffff;
+  width: 100%;
+  height: 15px;
+  outline: none;
+}
+
+input::placeholder{
+  color: #ffffff80;
+}
+
+ol{
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+li{
+  font-size: 2rem;
+  padding: 5px 23px;
+  background-color: #ffffff27;
+  margin-bottom: 5px;
+  border-radius: 50px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+
+  font-size: 1.7rem;
+  word-break: break-word;
+  padding-right: 10px;
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/*---------------------------------------------*/
+
+.clock-container{
+  background-color: #ffffff36;
+  color: #ffffff;
+  font-size: 2rem;
+
+  font-family: "Kavoon", serif;
+  font-weight: 100px;
+  text-align: center;
+  font-style: normal;
+  color: white;
+  
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.116); /* svetla prozirna traka */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 2.5rem;
+  z-index: 10;
+
+}
+/*-----------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+.calendar{
+    background-color: rgba(255, 255, 255, 0.075);
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    font-family: "Kavoon", serif;
+    font-weight: 100px;
+    text-align: center;
+    font-style: normal; 
+    letter-spacing: 5px;
+  
+}
+.calendar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.calendar-header button{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+    
+}
+.calendar-header button:hover{
+    color: rgb(216, 8, 8);
+}
+.calendar-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.calendar-table th, .calendar-table td{
+    padding: 7px;
+    width: 14.2%;
+    height: 50px;
+    text-align: center;
+}
+.calendar-table td{
+    border-radius: 50px;
+    
+}
+.danas{
+    background-color: rgba(255, 0, 0, 0.37);
+    border: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
